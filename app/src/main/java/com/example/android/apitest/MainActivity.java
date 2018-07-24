@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
 
-            String url = "https://content.guardianapis.com/search?q=damienhirst&show-fields=all&page-size=200&api-key=b5ad2634-1287-4b7e-bdeb-1dd03322f60a";
+            String url = "PUT_THE_API_HERE";
 
 
             String jsonString = "";
